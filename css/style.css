@@ -4,6 +4,35 @@
   padding: 0;
   box-sizing: border-box; }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  color: #124361;
+  text-align: center; }
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  color: #124361;
+  text-align: center; }
+
+.seccion-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  background-image: url(../assets/img/portada3.jpg);
+  background-size: cover;
+  height: 38.75rem;
+  background-position: center; }
+  .seccion-principal div p {
+    color: black;
+    width: 25rem;
+    margin: 5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 13pt;
+    font-weight: light; }
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -13,11 +42,13 @@
   background-color: #124361; }
   .flex-container nav ul {
     display: flex;
-    gap: 100px; }
+    gap: 6.25rem; }
     .flex-container nav ul li {
       list-style: none; }
       .flex-container nav ul li a {
         text-decoration: none;
         color: white;
         font-family: "Poppins", sans-serif;
-        font-weight: medium; }
+        font-weight: 500; }
+        .flex-container nav ul li a:hover {
+          color: goldenrod; }

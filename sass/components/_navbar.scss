@@ -1,0 +1,27 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color:rgb(18, 67, 97);
+    nav{
+        ul{
+            display: flex;
+            gap: 6.25rem;
+            li{
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 500; // Medium es 500 en valores numéricos
+                    
+                    &:hover {
+                        color: goldenrod;
+                    }
+                }
+            }
+        }
+    }
+}
