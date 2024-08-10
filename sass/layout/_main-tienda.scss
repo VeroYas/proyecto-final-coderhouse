@@ -1,25 +1,4 @@
-.seccion-principal{    
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    background-image:url(../../assets/img/portada3.jpg);
-    background-size: cover;
-    height: 38.75rem;;
-    background-position: center;
-    div{
-        p{
-            color: black;
-            width: 25rem;
-            margin: 5rem;
-            font-family: "Poppins", sans-serif;
-            font-size: 13pt;
-            font-weight: light;
-        }
-    }
-}
-
-.contenerdor-cards {
+.contenerdor-cards1 {
     display: flex;
     width:100%;
     height: auto;
@@ -32,7 +11,7 @@
     .card {
         display: flex;
         width: 15rem;
-        height: 28rem;
+        height: 23rem;
         background-color: rgb(230, 246, 252);
         border-radius: .3125rem;
         flex-direction: column;
@@ -59,7 +38,7 @@
             p{
                 color: black;
                 font-family: "Poppins", sans-serif;
-                font-size: 9pt;
+                font-size: 12pt;
                 font-weight: light;
                 text-align: justify;
             }

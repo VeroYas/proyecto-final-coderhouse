@@ -13,15 +13,6 @@
     justify-content: $justify;
 }
 
-/*@mixin grid-layout($columns, $rows, $gap:10px) {
-    display: grid;
-    grid-template-columns: $columns;
-    grid-template-rows: $rows;
-    gap: $gap;
-    align-items: center;
-    justify-items: center;
-}*/
-
 @mixin link-style($color:white) {
     text-decoration: none;
     color: $color;

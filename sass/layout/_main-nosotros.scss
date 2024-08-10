@@ -1,0 +1,78 @@
+.contenido-nosotros{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(17, 50px);
+    align-items: center;
+    justify-items: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 20px;
+    text-align: justify;
+
+    p{
+        color: black;
+        font-family: "Poppins", sans-serif;
+        font-size: 10pt;
+        font-weight: light;
+    }
+
+    h3{
+        color: rgb(18, 67, 97);
+        font-family: "Poppins", sans-serif;
+        font: size 12pt;
+    }
+
+    .mision {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        order: 1;
+        justify-self: center;
+    }
+
+    .mision-1 {
+        grid-column: 3/8;
+        grid-row: 2/3;
+        order: 2;
+    }
+
+    .vision {
+        grid-column: 2/3;
+        grid-row: 5/6;
+        order: 3;
+        justify-self: center;
+    }
+
+    .vision-1 {
+        grid-column: 3/8;
+        grid-row: 4/7;
+        order: 2;
+    }
+
+    .objetivos {
+        grid-column: 2/3;
+        grid-row: 9/10;
+        order: 4;
+        justify-self: center;
+    }
+
+    .objetivos-1 {
+        grid-column: 3/8;
+        grid-row: 8/11;
+        order: 2;
+    }
+
+    .valores {
+        grid-column: 2/3;
+        grid-row: 14/15;
+        order: 3;
+        justify-self: center;
+    }
+
+    .valores-1 {
+        grid-column: 3/8;
+        grid-row: 13/16;
+        order: 2;
+    }
+}
