@@ -1,0 +1,32 @@
+
+@mixin font-style($weight, $size: 1rem, $color: black) {
+    font-family: "Poppins", sans-serif;
+    font-weight: $weight;
+    color: $color;
+    font-size: $size;
+}
+
+@mixin flexbox($direction: row, $align: center, $justify: center) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+/*@mixin grid-layout($columns, $rows, $gap:10px) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    gap: $gap;
+    align-items: center;
+    justify-items: center;
+}*/
+
+@mixin link-style($color:white) {
+    text-decoration: none;
+    color: $color;
+    &:hover,
+    &:focus{
+        color: goldenrod;
+    }
+}

@@ -1,3 +1,11 @@
+/*@mixin grid-layout($columns, $rows, $gap:10px) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    gap: $gap;
+    align-items: center;
+    justify-items: center;
+}*/
 @import 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap';
 * {
   margin: 0;
@@ -6,22 +14,42 @@
 
 h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: medium;
+  font-weight: bold;
   color: #124361;
+  font-size: 2rem;
   text-align: center; }
 
 h2 {
   font-family: "Poppins", sans-serif;
-  font-weight: medium;
+  font-weight: bold;
   color: #124361;
+  font-size: 2rem;
   text-align: center; }
+
+header {
+  background-color: #124361;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.principal {
+  width: 100%;
+  height: 730px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  background-image: url(../../assets/img/portada3.jpg); }
+  .principal p {
+    width: 25rem;
+    margin: 60px; }
 
 .seccion-principal {
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  background-image: url(../assets/img/portada3.jpg);
+  background-image: url(../../assets/img/portada3.jpg);
   background-size: cover;
   height: 38.75rem;
   background-position: center; }
@@ -32,6 +60,54 @@ h2 {
     font-family: "Poppins", sans-serif;
     font-size: 13pt;
     font-weight: light; }
+
+.contacfooter {
+  display: grid;
+  width: 100%;
+  height: 200px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 50px);
+  background-color: #124361;
+  align-items: center;
+  justify-items: center;
+  row-gap: 10px;
+  column-gap: 10px; }
+  .contacfooter h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
+    color: white;
+    font-size: 1rem; }
+  .contacfooter h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 0.8rem; }
+  .contacfooter .logo {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 110px;
+    align-items: end; }
+  .contacfooter h5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+    font-weight: medium; }
+  .contacfooter h4 {
+    grid-column: 3/4;
+    grid-row: 2/3; }
+  .contacfooter .logo1 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 1.5rem; }
+  .contacfooter .logo2 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    max-height: 1.5rem; }
+  .contacfooter .logo3 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    width: 1.5rem;
+    height: 1.5rem; }
 
 .flex-container {
   display: flex;
