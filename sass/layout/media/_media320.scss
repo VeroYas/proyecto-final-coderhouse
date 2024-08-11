@@ -7,47 +7,140 @@
     }
     
     
-    .flex-container div a img{
-        width: 65%;
+    .flex-container{
+        div{
+            a{
+                img{
+                    width: 85%;
+                }
+            }
+        }
     }
     
     
-    .flex-container .navbar{
-        display: flex;
-        gap: 8px; 
-        flex-direction: column;
-        align-items: center;
+    .flex-container{
+        .navbar{
+            display: flex;
+            gap: 8px; 
+            flex-direction: column;
+            align-items: center;
+        }
     }
     
     
-    .navbar li a{
-        text-decoration: none;
-        color:white;
-        font-family: "Poppins", sans-serif;
-        font-weight: medium;
-        font-size: 6pt;
-        flex-direction: column;
-        align-items: center;
+    .navbar{ 
+        li{ 
+            a{
+                text-decoration: none;
+                color:white;
+                font-family: "Poppins", sans-serif;
+                font-weight: medium;
+                align-items: center;
+                font-size: 6pt;
+                flex-direction: column;
+            }
+        }    
     }
 
-    .seccion-principal{    
+    .seccion-principal{
         display: flex;
+        width: cover;
+        height: 8rem;
+        padding: 5rem;
         flex-direction: row;
-        justify-content: left;
+        justify-content: center;
         align-items: center;
         background-image:url(../../assets/img/portada3.jpg);
-        background-size: cover;
-        height: 1rem;;
+        background-repeat: no-repeat;
+        background-size: contain;
         background-position: center;
         div{
             p{
                 color: black;
-                width: 25rem;
-                margin: 5rem;
+                width: 8rem;
                 font-family: "Poppins", sans-serif;
-                font-size: 8pt;
+                font-size: 7pt;
                 font-weight: light;
             }
+        }
+    }
+
+    .contenido-nosotros{
+        display: grid;
+        width: cover;
+        height: auto;
+        grid-template-columns: repeat(2, 8.5rem);
+        grid-template-rows: repeat(30, 50px);
+        align-items: center;
+        justify-items: center;
+        row-gap: 0.25rem;
+        column-gap: 0.25rem;
+        padding: 0.25rem;
+        text-align: justify;
+    
+        p{
+            color: black;
+            font-family: "Poppins", sans-serif;
+            font-size: 9pt;
+            font-weight: light;
+        }
+    
+        h3{
+            color: rgb(18, 67, 97);
+            font-family: "Poppins", sans-serif;
+            font: size 10pt;
+        }
+    
+        .mision {
+            grid-column: 1/3;
+            grid-row: 1/2;
+            order: 1;
+            justify-self: center;
+        }
+    
+        .mision-1 {
+            grid-column: 1/3;
+            grid-row: 2/7;
+            order: 2;
+        }
+    
+        .vision {
+            grid-column: 1/3;
+            grid-row: 7/8;
+            order: 3;
+            justify-self: center;
+        }
+    
+        .vision-1 {
+            grid-column: 1/3;
+            grid-row: 9/11;
+            order: 2;
+        }
+    
+        .objetivos {
+            grid-column: 1/3;
+            grid-row: 13/14;
+            order: 4;
+            justify-self: center;
+        }
+    
+        .objetivos-1 {
+            grid-column: 1/3;
+            grid-row: 16/20;
+            order: 2;
+        }
+    
+        .valores {
+            grid-column: 1/3;
+            grid-row: 23/24;
+            order: 3;
+            justify-self: center;
+        }
+    
+        .valores-1 {
+            grid-column: 1/3;
+            grid-row: 25/30;
+            order: 2;
         }
     }
 }

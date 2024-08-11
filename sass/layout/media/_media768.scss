@@ -6,16 +6,23 @@
         justify-content: center;
     }
 
-    .flex-container div a img {
-        width: 50%;
-        height: auto;
+    .flex-container {
+        div{
+            a{
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
 
-    .flex-container .navbar {
-        display: flex;
-        gap: 10px;
-        flex-direction: column;
-        align-items: center;
+    .flex-container {
+        .navbar {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     .navbar {
@@ -25,10 +32,106 @@
                 color: white;
                 font-family: "Poppins", sans-serif;
                 font-weight: medium;
+                align-items: center;
                 font-size: 8pt;
                 flex-direction: column;
-                align-items: center;
             }
+        }
+    }
+
+    .seccion-principal{
+        display: flex;
+        width: cover;
+        height: 26rem;
+        padding: 1rem;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        background-image:url(../../assets/img/portada3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        div{
+            p{
+                color: black;
+                width: 12rem;
+                font-family: "Poppins", sans-serif;
+                font-size: 8pt;
+                font-weight: light;
+            }
+        }
+    }
+
+    .contenido-nosotros{
+        display: grid;
+        width: cover;
+        height: auto;
+        grid-template-columns: repeat(2, 22rem);
+        grid-template-rows: repeat(18rem, 40px);
+        align-items: center;
+        justify-items: center;
+        row-gap: 0.25rem;
+        column-gap: 0.25rem;
+        padding: 0.25rem;
+        text-align: justify;
+    
+        p{
+            color: black;
+            font-family: "Poppins", sans-serif;
+            font-size: 9pt;
+            font-weight: light;
+        }
+    
+        h3{
+            color: rgb(18, 67, 97);
+            font-family: "Poppins", sans-serif;
+            font: size 10pt;
+        }
+    
+        .mision {
+            grid-column: 1/3;
+            grid-row: 2/3;
+            justify-self: center;
+        }
+    
+        .mision-1 {
+            grid-column: 1/3;
+            grid-row: 2/7;
+        }
+    
+        .vision {
+            grid-column: 1/3;
+            grid-row: 6/7;
+            justify-self: center;
+        }
+    
+        .vision-1 {
+            grid-column: 1/3;
+            grid-row: 8/9;
+        }
+    
+        .objetivos {
+            grid-column: 1/3;
+            grid-row: 10/11;
+            justify-self: center;
+        }
+    
+        .objetivos-1 {
+            grid-column: 1/3;
+            grid-row: 12/14;
+        }
+    
+        .valores {
+            grid-column: 1/3;
+            grid-row:16/17;
+            order: 3;
+            justify-self: center;
+        }
+    
+        .valores-1 {
+            grid-column: 1/3;
+            grid-row: 17/20;
+            order: 2;
         }
     }
 }
