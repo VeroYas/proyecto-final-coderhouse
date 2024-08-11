@@ -29,7 +29,7 @@ header {
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  background-image: url(../../assets/img/portada3.jpg);
+  background-image: url(../assets/img/portada3.jpg);
   background-size: cover;
   height: 38.75rem;
   background-position: center; }
@@ -385,7 +385,7 @@ button {
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    background-image: url(../../../assets/img/portada3.jpg);
+    background-image: url(../assets/img/portada3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; }
@@ -474,7 +474,7 @@ button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url(../../../assets/img/portada3.jpg);
+    background-image: url(../assets/img/portada3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; }
