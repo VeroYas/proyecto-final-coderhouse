@@ -27,52 +27,44 @@
     .mision {
         grid-column: 2/3;
         grid-row: 2/3;
-        order: 1;
         justify-self: center;
     }
 
     .mision-1 {
         grid-column: 3/8;
         grid-row: 2/3;
-        order: 2;
     }
 
     .vision {
         grid-column: 2/3;
         grid-row: 5/6;
-        order: 3;
         justify-self: center;
     }
 
     .vision-1 {
         grid-column: 3/8;
         grid-row: 4/7;
-        order: 2;
     }
 
     .objetivos {
         grid-column: 2/3;
         grid-row: 9/10;
-        order: 4;
         justify-self: center;
     }
 
     .objetivos-1 {
         grid-column: 3/8;
         grid-row: 8/11;
-        order: 2;
     }
 
     .valores {
         grid-column: 2/3;
         grid-row: 14/15;
-        order: 3;
         justify-self: center;
     }
 
     .valores-1 {
         grid-column: 3/8;
         grid-row: 13/16;
-        order: 2;
     }
 }
