@@ -84,7 +84,8 @@ header {
     .contenerdor-cards .card .card-info button:hover, .contenerdor-cards .card .card-info button:focus {
       background-color: goldenrod}
     .contenerdor-cards .card .card-info button:hover, .contenerdor-cards .card .card-info button:focus {
-      transform: translate(0.5rem)}
+      transform: translate(0.5rem);
+      transition: transform 0.15s linear;}
 
 .contacfooter {
   display: grid;
