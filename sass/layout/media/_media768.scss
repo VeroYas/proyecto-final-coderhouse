@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-container div a img {
+        width: 50%;
+        height: auto;
+    }
+
+    .flex-container .navbar {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        li {
+            a {
+                text-decoration: none;
+                color: white;
+                font-family: "Poppins", sans-serif;
+                font-weight: medium;
+                font-size: 8pt;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+}
