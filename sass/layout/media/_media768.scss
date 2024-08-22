@@ -67,7 +67,7 @@
         width: cover;
         height: auto;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(40, 40px);
+        grid-template-rows: repeat(42, 40px);
         align-items: center;
         justify-items: center;
         row-gap: 0.25rem;
@@ -106,29 +106,29 @@
     
         .vision-1 {
             grid-column: 2/6;
-            grid-row: 13/17;
+            grid-row: 13/18;
         }
     
         .objetivos {
             grid-column: 3/5;
-            grid-row: 19/20;
+            grid-row: 20/21;
             justify-self: center;
         }
     
         .objetivos-1 {
             grid-column: 2/6;
-            grid-row: 20/28;
+            grid-row: 21/30;
         }
     
         .valores {
             grid-column: 3/5;
-            grid-row:29/30;
+            grid-row:31/32;
             justify-self: center;
         }
     
         .valores-1 {
             grid-column: 2/6;
-            grid-row: 30/40;
+            grid-row: 32/42;
         }
     }
 }

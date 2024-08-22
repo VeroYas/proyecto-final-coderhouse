@@ -400,7 +400,7 @@ button {
     width: cover;
     height: auto;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(40, 40px);
+    grid-template-rows: repeat(42, 40px);
     align-items: center;
     justify-items: center;
     row-gap: 0.25rem;
@@ -428,21 +428,21 @@ button {
       justify-self: center; }
     .contenido-nosotros .vision-1 {
       grid-column: 2/6;
-      grid-row: 13/17; }
+      grid-row: 13/18; }
     .contenido-nosotros .objetivos {
       grid-column: 3/5;
-      grid-row: 19/20;
+      grid-row: 20/21;
       justify-self: center; }
     .contenido-nosotros .objetivos-1 {
       grid-column: 2/6;
-      grid-row: 20/28; }
+      grid-row: 21/30; }
     .contenido-nosotros .valores {
       grid-column: 3/5;
-      grid-row: 29/30;
+      grid-row: 31/32;
       justify-self: center; }
     .contenido-nosotros .valores-1 {
       grid-column: 2/6;
-      grid-row: 30/40; } }
+      grid-row: 32/42; } }
 
 @media (min-width: 600px) and (max-width: 767px) {
   .flex-container {
