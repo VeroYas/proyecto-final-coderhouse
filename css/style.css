@@ -442,7 +442,7 @@ button {
       justify-self: center; }
     .contenido-nosotros .valores-1 {
       grid-column: 2/6;
-      grid-row: 29/38; } }
+      grid-row: 29/39; } }
 
 @media (min-width: 600px) and (max-width: 767px) {
   .flex-container {
