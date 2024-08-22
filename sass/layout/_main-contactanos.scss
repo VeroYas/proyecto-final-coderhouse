@@ -45,7 +45,8 @@ button {
 }
 
 .mapa {
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     iframe {
         width: 100%;
         max-width: 400px;

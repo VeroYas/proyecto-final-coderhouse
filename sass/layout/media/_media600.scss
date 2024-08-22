@@ -1,67 +1,62 @@
-@media (max-width: 520px) {
-    .flex-container{
+@media (min-width: 600px) and (max-width:767px){
+    .flex-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
-        height: auto;
     }
 
-    
-    .flex-container{
+    .flex-container {
         div{
             a{
-                img{
-                    height: 85%;
+                img {
+                    width: 100%;
                 }
             }
         }
     }
-    
-    
-    .flex-container{
-        .navbar{
+
+    .flex-container {
+        .navbar {
             display: flex;
-            gap: 8px; 
+            gap: 5px;
             flex-direction: column;
             align-items: center;
         }
     }
-    
-    
-    .navbar{ 
-        li{ 
-            a{
+
+    .navbar {
+        li {
+            a {
                 text-decoration: none;
-                color:white;
+                color: white;
                 font-family: "Poppins", sans-serif;
                 font-weight: medium;
                 align-items: center;
-                font-size: 6pt;
+                font-size: 8pt;
                 flex-direction: column;
             }
-        }    
+        }
     }
 
     .seccion-principal{
         display: flex;
         width: cover;
-        height: 1rem;
-        padding: 5rem;
+        height: 26rem;
+        padding: 1rem;
         flex-direction: row;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         background-image:url(../assets/img/portada3.jpg);
         background-repeat: no-repeat;
-        object-fit: contain;
+        background-size: contain;
         background-position: center;
         div{
             p{
                 color: black;
-                width: 8rem;
+                width: 12rem;
                 font-family: "Poppins", sans-serif;
-                font-size: 7pt;
+                font-size: 8pt;
                 font-weight: light;
             }
         }
@@ -71,13 +66,12 @@
         display: grid;
         width: cover;
         height: auto;
-        grid-template-columns: repeat(5, 5rem);
-        grid-template-rows: repeat(30, 50px);
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(33, 40px);
         align-items: center;
         justify-items: center;
         row-gap: 0.25rem;
         column-gap: 0.25rem;
-        padding: 0.25rem;
         text-align: justify;
     
         p{
@@ -94,47 +88,47 @@
         }
     
         .mision {
-            grid-column: 3/4;
+            grid-column: 3/5;
             grid-row: 1/2;
             justify-self: center;
         }
     
         .mision-1 {
-            grid-column: 1/5;
+            grid-column: 2/6;
             grid-row: 2/7;
         }
     
         .vision {
-            grid-column: 3/4;
-            grid-row: 7/8;
+            grid-column: 3/5;
+            grid-row: 8/9;
             justify-self: center;
         }
     
         .vision-1 {
-            grid-column: 1/5;
-            grid-row: 9/11;
+            grid-column: 2/6;
+            grid-row: 9/14;
         }
     
         .objetivos {
-            grid-column: 3/4;
-            grid-row: 13/14;
+            grid-column: 3/5;
+            grid-row: 15/16;
             justify-self: center;
         }
     
         .objetivos-1 {
-            grid-column: 1/5;
-            grid-row: 16/20;
+            grid-column: 2/6;
+            grid-row: 16/22;
         }
     
         .valores {
-            grid-column: 3/4;
-            grid-row: 23/24;
+            grid-column: 3/5;
+            grid-row:23/24;
             justify-self: center;
         }
     
         .valores-1 {
-            grid-column: 1/5;
-            grid-row: 25/30;
+            grid-column: 2/6;
+            grid-row: 24/30;
         }
     }
 }
