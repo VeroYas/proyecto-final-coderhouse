@@ -71,7 +71,7 @@
         display: grid;
         width: cover;
         height: auto;
-        grid-template-columns: repeat(4, 5rem);
+        grid-template-columns: repeat(5, 5rem);
         grid-template-rows: repeat(30, 50px);
         align-items: center;
         justify-items: center;
@@ -94,7 +94,7 @@
         }
     
         .mision {
-            grid-column: 2/4;
+            grid-column: 3/4;
             grid-row: 1/2;
             justify-self: center;
         }
@@ -105,7 +105,7 @@
         }
     
         .vision {
-            grid-column: 2/4;
+            grid-column: 3/4;
             grid-row: 7/8;
             justify-self: center;
         }
@@ -116,7 +116,7 @@
         }
     
         .objetivos {
-            grid-column: 2/4;
+            grid-column: 3/4;
             grid-row: 13/14;
             justify-self: center;
         }
@@ -127,7 +127,7 @@
         }
     
         .valores {
-            grid-column: 2/4;
+            grid-column: 3/4;
             grid-row: 23/24;
             justify-self: center;
         }
